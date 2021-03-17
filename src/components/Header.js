@@ -38,10 +38,10 @@ class Header extends React.Component {
         </nav>
           <ul className="nav fixed-bottom bg-dark text-light d-md-none">
             <li className="nav-item text-center col-sm-6 col-6">
-              <a onClick={this.handleClick} value="fixtures" className="nav-link" href="http://localhost:3000/">{this.props.link1}</a>
+              <p onClick={this.handleClick} title={this.props.link1} className="nav-link text-light">
             </li>
             <li className="nav-item text-center col-sm-6 col-6">
-              <a onClick={this.handleClick} value="results" className="nav-link" href="http://localhost:3000/">{this.props.link2}</a>
+              <p onClick={this.handleClick} title={this.props.link2} className="nav-link text-light">
             </li>
         </ul>
       </div>
