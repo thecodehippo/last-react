@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header link1="Fixtures" link2="Results" onClick={this.changePage} />
+        <Header link1="Home" link2="Fixtures" link3="Results" onClick={this.changePage} />
         {this.displayPage()}
       </div>
     );
