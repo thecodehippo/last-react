@@ -5,7 +5,6 @@ import Jumbotron from './components/Jumbotron';
 import Cards from './components/Cards';
 import Results from './components/Results';
 import Fixtures from './components/Fixtures';
-import Pickslip from './components/Pickslip';
 
 class App extends React.Component {
   constructor(props) {
@@ -29,7 +28,6 @@ class App extends React.Component {
         <div>
           <Jumbotron />
           <Cards />
-          <Pickslip />
         </div>
       )
     }

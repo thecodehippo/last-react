@@ -37,12 +37,12 @@ class Header extends React.Component {
           </div>
         </nav>
           <ul className="nav fixed-bottom bg-dark text-light d-md-none">
-            <li className="nav-item text-center col-sm-6 col-6">
+            <li className="border border-light rounded nav-item text-center col-sm-6 col-6">
               <p onClick={this.handleClick} title={this.props.link1} className="nav-link text-light">
               {this.props.link1}
             </p>
             </li>
-            <li className="nav-item text-center col-sm-6 col-6">
+            <li className="border border-light rounded nav-item text-center col-sm-6 col-6">
               <p onClick={this.handleClick} title={this.props.link2} className="nav-link text-light">
               {this.props.link2}
             </p>
