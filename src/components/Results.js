@@ -56,8 +56,8 @@ class Results extends React.Component {
             <tr>
               <th scope="col">Date</th>
               <th scope="col">Home</th>
-              <th scope="col">Home Score</th>
-              <th scope="col">Away Score</th>
+              <th scope="col">Score</th>
+              <th scope="col">Score</th>
               <th scope="col">Away</th>
             </tr>
           </thead>
